@@ -29,7 +29,7 @@
                     <h3>0. Hola mundo y phpinfo().</h3>
                 </td>
                 <td><button class="active" onclick="window.open('./codigoPHP/ejercicio00.php')">Ejecutar</button></td>
-                <td><button class="active" onclick="window.open('https://github.com/JameseNunCuz/JENCDWESProyectoTema3/blob/main/codigoPHP/ejercicio00.php')">Mostrar codigo</button></td>
+                <td><button class="active" onclick="window.open('https://github.com/JameseNunCuz/JENCDWESProyectoTema3/blob/developerJENC/codigoPHP/ejercicio00.php')">Mostrar codigo</button></td>
             </tr>
             <tr>
                 <td>
@@ -37,35 +37,35 @@
                         pantalla</h3>
                 </td>
                 <td><button class="active" onclick="window.open('./codigoPHP/ejercicio01.php')">Ejecutar</button></td>
-                <td><button class="active" onclick="window.open('https://github.com/JameseNunCuz/JENCDWESProyectoTema3/blob/main/codigoPHP/ejercicio01.php')">Mostrar codigo</button></td>
+                <td><button class="active" onclick="window.open('https://github.com/JameseNunCuz/JENCDWESProyectoTema3/blob/developerJENC/codigoPHP/ejercicio01.php')">Mostrar codigo</button></td>
             </tr>
             <tr>
                 <td>
                     <h3>2. Iniciatrzar y mostrar una variable heredoc</h3>
                 </td>
                 <td><button class="active" onclick="window.open('./codigoPHP/ejercicio02.php')">Ejecutar</button></td>
-                <td><button class="active" onclick="window.open('https://github.com/JameseNunCuz/JENCDWESProyectoTema3/blob/main/codigoPHP/ejercicio02.php')">Mostrar codigo</button></td>
+                <td><button class="active" onclick="window.open('https://github.com/JameseNunCuz/JENCDWESProyectoTema3/blob/developerJENC/codigoPHP/ejercicio02.php')">Mostrar codigo</button></td>
             </tr>
             <tr>
                 <td>
                     <h3>3. Mostrar en tu página index la fecha y hora actual formateada en castellano.</h3>
                 </td>
                 <td><button class="active" onclick="window.open('./codigoPHP/ejercicio03.php')">Ejecutar</button></td>
-                <td><button class="active" onclick="window.open('https://github.com/JameseNunCuz/JENCDWESProyectoTema3/blob/main/codigoPHP/ejercicio03.php')">Mostrar codigo</button></td>
+                <td><button class="active" onclick="window.open('https://github.com/JameseNunCuz/JENCDWESProyectoTema3/blob/developerJENC/codigoPHP/ejercicio03.php')">Mostrar codigo</button></td>
             </tr>
             <tr>
                 <td>
                     <h3>4. Mostrar en tu página index la fecha y hora actual en Oporto formateada en portugués</h3>
                 </td>
                 <td><button class="active" onclick="window.open('./codigoPHP/ejercicio04.php')">Ejecutar</button></td>
-                <td><button class="active" onclick="window.open('https://github.com/JameseNunCuz/JENCDWESProyectoTema3/blob/main/codigoPHP/ejercicio04.php')">Mostrar codigo</button></td>
+                <td><button class="active" onclick="window.open('https://github.com/JameseNunCuz/JENCDWESProyectoTema3/blob/developerJENC/codigoPHP/ejercicio04.php')">Mostrar codigo</button></td>
             </tr>
             <tr>
                 <td>
                     <h3>5. Iniciatrzar y mostrar una variable que tiene una marca de tiempo</h3>
                 </td>
                 <td><button class="active" onclick="window.open('./codigoPHP/ejercicio05.php')">Ejecutar</button></td>
-                <td><button class="active" onclick="window.open('https://github.com/JameseNunCuz/JENCDWESProyectoTema3/blob/main/codigoPHP/ejercicio05.php')">Mostrar codigo</button></td>
+                <td><button class="active" onclick="window.open('https://github.com/JameseNunCuz/JENCDWESProyectoTema3/blob/developerJENC/codigoPHP/ejercicio05.php')">Mostrar codigo</button></td>
             </tr>
             <tr>
                 <td>
