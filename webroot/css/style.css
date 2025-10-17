@@ -64,10 +64,10 @@ button {
     cursor: pointer;
     text-align: center;
     max-height: 10em;
-    margin: 1em;
+    margin: 0.33em;
     height: match-parent;
     width: match-parent;
-    font-size: 2em;
+    font-size: 1.2em;
 }
 
 .active:hover {
@@ -81,6 +81,13 @@ table h2 {
 }
 
 td {
+    border-style: groove;
+    border-width: 1vh;
+    text-align: left;
+    vertical-align: middle;
+}
+
+td:first-child {
     border-style: groove;
     border-width: 1vh;
     text-align: center;

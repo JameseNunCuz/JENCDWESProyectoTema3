@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ejercicio 07</title>
+  <title>Ejercicio 09</title>
 </head>
 
 <body>
@@ -13,7 +13,7 @@
     *@since 17/10/2025
     *@version 17/10/2025
     */
-  echo basename($_SERVER['SCRIPT_FILENAME']);
+  echo dirname(__FILE__);
   ?>
 </body>
 
