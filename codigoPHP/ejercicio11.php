@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ejercicio 10</title>
+  <title>Ejercicio 11</title>
 </head>
 
 <body>
@@ -13,7 +13,7 @@
     *@since 17/10/2025
     *@version 17/10/2025
     */
-  
+
   ?>
 </body>
 

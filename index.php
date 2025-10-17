@@ -127,8 +127,8 @@
                 <td>
                     <h3>Mostrar el contenido de las variables superglobales</h3>
                 </td>
-                <td><button>Ejecutar</button></td>
-                <td><button>Mostrar codigo</button></td>
+                <td><button class="active" onclick="window.open('./codigoPHP/ejercicio12.php')">Ejecutar</button></td>
+                <td><button class="active" onclick="window.open('https://github.com/JameseNunCuz/JENCDWESProyectoTema3/blob/developerJENC/codigoPHP/ejercicio12.php')">Mostrar codigo</button></td>
             </tr>
             <tr>
                 <td><h3>13</h3></td>
