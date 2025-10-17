@@ -4,17 +4,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ejercicio 05</title>
+    <title>Ejercicio 06</title>
 </head>
 
 <body>
     <?php /** 
       *@author James Edward
-      *@since 16/10/2025
+      *@since 17/10/2025
       *@version 17/10/2025
       */
-    $timeNow = time();
-    echo $timeNow;
+    $date = new DateTime('now', new DateTimeZone('Europe/Madrid'));
+    $date->add(new DateInterval('P30D'));
+    echo $date->format('d-m-Y');
     ?>
 </body>
 

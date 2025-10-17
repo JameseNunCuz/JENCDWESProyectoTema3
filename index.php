@@ -71,15 +71,15 @@
                 <td>
                     <h3>6. Operar con fechas: calcular la fecha y el día de la semana de dentro de 60 días</h3>
                 </td>
-                <td><button>Ejecutar</button></td>
-                <td><button>Mostrar codigo</button></td>
+                <td><button class="active" onclick="window.open('./codigoPHP/ejercicio06.php')">Ejecutar</button></td>
+                <td><button class="active" onclick="window.open('https://github.com/JameseNunCuz/JENCDWESProyectoTema3/blob/developerJENC/codigoPHP/ejercicio06.php')">Mostrar codigo</button></td>
             </tr>
             <tr>
                 <td>
                     <h3>7. Mostrar el nombre del fichero que se está ejecutando.</h3>
                 </td>
-                <td><button>Ejecutar</button></td>
-                <td><button>Mostrar codigo</button></td>
+                <td><button class="active" onclick="window.open('./codigoPHP/ejercicio07.php')">Ejecutar</button></td>
+                <td><button class="active" onclick="window.open('https://github.com/JameseNunCuz/JENCDWESProyectoTema3/blob/developerJENC/codigoPHP/ejercicio07.php')">Mostrar codigo</button></td>
             </tr>
             <tr>
                 <td>
