@@ -16,8 +16,9 @@
 
     function verAsientosOcupados($asientos)
     {/**
-      Esta funcion devuelve un array con los elementos ocupados del array que se introduzca
-      */
+     *Esta funcion devuelve un array con los elementos ocupados del array que se introduzca
+     *@param array $asientos: Array bidimensional con las filas y asientos de un teatro
+     */
         $asientosOcupados = []; // Array en el que se guardan los asientos que esten ocupados
         foreach ($asientos as $fila => $asientosFila) {
             foreach ($asientosFila as $asiento => $nombre) {
