@@ -15,7 +15,7 @@
       */
 
     // Inicializamos el array 20 filas x 15 asientos
-    $asientos = array_fill(0, 20, array_fill(0, 15, NULL));
+    $asientos = array_fill(0, 20, array_fill(0, 15, null));
 
     // Ocupamos 5 asientos con nombres
     $asientos[0][2] = "Ana";
