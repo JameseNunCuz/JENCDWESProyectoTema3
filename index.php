@@ -166,8 +166,8 @@
                 <td>
                     <h3>Recorrer el array anterior utitrzando funciones para obtener el mismo resultado</h3>
                 </td>
-                <td><button>Ejecutar</button></td>
-                <td><button>Mostrar codigo</button></td>
+                <td><button class="active" onclick="window.open('./codigoPHP/ejercicio16.php')">Ejecutar</button></td>
+                <td><button class="active" onclick="window.open('https://github.com/JameseNunCuz/JENCDWESProyectoTema3/blob/developerJENC/codigoPHP/ejercicio16.php')">Mostrar codigo</button></td>
             </tr>
             <tr>
                 <td><h3>17</h3></td>
@@ -177,12 +177,12 @@
                         en un teatro de 20 filas y 15 asientos por fila.Recorrer el array con distintas técnicas para
                         mostrar los asientos ocupados en cada fila y las personas que lo ocupan.</h3>
                 </td>
-                <td><button>Ejecutar</button></td>
-                <td><button>Mostrar codigo</button></td>
+                <td><button class="active" onclick="window.open('./codigoPHP/ejercicio17.php')">Ejecutar</button></td>
+                <td><button class="active" onclick="window.open('https://github.com/JameseNunCuz/JENCDWESProyectoTema3/blob/developerJENC/codigoPHP/ejercicio17.php')">Mostrar codigo</button></td>
             </tr>
             <tr>
                 <td><h3>18</h3></td>
-                <td>Recorrer el array anterior utitrzando funciones para obtener el mismo resultado.</td>
+                <td><h3>Recorrer el array anterior utitrzando funciones para obtener el mismo resultado.</h3></td>
                 <td><button>Ejecutar</button></td>
                 <td><button>Mostrar codigo</button></td>
             </tr>
