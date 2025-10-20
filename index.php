@@ -148,8 +148,8 @@
                         de
                         explotación.</h3>
                 </td>
-                <td><button>Ejecutar</button></td>
-                <td><button>Mostrar codigo</button></td>
+                <td><button class="active" onclick="window.open('./codigoPHP/ejercicio14.php')">Ejecutar</button></td>
+                <td><button class="active" onclick="window.open('https://github.com/JameseNunCuz/JENCDWESProyectoTema3/blob/developerJENC/codigoPHP/ejercicio14.php')">Mostrar codigo</button></td>
             </tr>
             <tr>
                 <td><h3>15</h3></td>
@@ -158,8 +158,8 @@
                         para
                         calcular el sueldo percibido durante la semana.</h3>
                 </td>
-                <td><button>Ejecutar</button></td>
-                <td><button>Mostrar codigo</button></td>
+                <td><button class="active" onclick="window.open('./codigoPHP/ejercicio15.php')">Ejecutar</button></td>
+                <td><button class="active" onclick="window.open('https://github.com/JameseNunCuz/JENCDWESProyectoTema3/blob/developerJENC/codigoPHP/ejercicio15.php')">Mostrar codigo</button></td>
             </tr>
             <tr>
                 <td><h3>16</h3></td>

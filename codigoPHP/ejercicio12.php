@@ -11,11 +11,12 @@
     <?php /** 
       *@author James Edward
       *@since 17/10/2025
-      *@version 17/10/2025
+      *@version 20/10/2025
       */
     foreach ($GLOBALS as $keyGlobal => $valueGlobal) {
-        foreach ($value as $subKey => $subValue) {
-            print_r($subKey . ": " . $subValue);
+        print_r("<p>Variable superglobal:$keyGlobal Contenido: </p>");
+        foreach ($valueGlobal as $subKey => $subValue) {
+            print_r($subValue);
         }
     }
     ?>
