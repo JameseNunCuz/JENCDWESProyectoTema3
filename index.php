@@ -183,8 +183,8 @@
             <tr>
                 <td><h3>18</h3></td>
                 <td><h3>Recorrer el array anterior utitrzando funciones para obtener el mismo resultado.</h3></td>
-                <td><button>Ejecutar</button></td>
-                <td><button>Mostrar codigo</button></td>
+                <td><button class="active" onclick="window.open('./codigoPHP/ejercicio18.php')">Ejecutar</button></td>
+                <td><button class="active" onclick="window.open('https://github.com/JameseNunCuz/JENCDWESProyectoTema3/blob/developerJENC/codigoPHP/ejercicio18.php')">Mostrar codigo</button></td>
             </tr>
             <tr>
                 <td><h3>19</h3></td>
