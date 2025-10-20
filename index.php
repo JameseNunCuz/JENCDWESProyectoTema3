@@ -119,8 +119,8 @@
                 <td>
                     <h3>Mostrar el documento PHPDoc del proyecto que se está ejecutando generado con PHP Documentor o ApiGen</h3>
                 </td>
-                <td><button class="active" onclick="window.open('./codigoPHP/ejercicio11.php')">Ejecutar</button></td>
-                <td><button class="active" onclick="window.open('https://github.com/JameseNunCuz/JENCDWESProyectoTema3/blob/developerJENC/codigoPHP/ejercicio11.php')">Mostrar codigo</button></td>
+                <td><button class="active" style="visibility: hidden" onclick="window.open('./codigoPHP/ejercicio11.php')">Ejecutar</button></td>
+                <td><button class="active" style="visibility: hidden" onclick="window.open('https://github.com/JameseNunCuz/JENCDWESProyectoTema3/blob/developerJENC/codigoPHP/ejercicio11.php')">Mostrar codigo</button></td>
             </tr>
             <tr>
                 <td><h3>12</h3></td>
@@ -136,8 +136,8 @@
                     <h3>Crear una función que cuente el número de visitas a la página actual desde una fecha
                         concreta</h3>
                 </td>
-                <td><button>Ejecutar</button></td>
-                <td><button>Mostrar codigo</button></td>
+                <td><button style="visibility: hidden">Ejecutar</button></td>
+                <td><button style="visibility: hidden">Mostrar codigo</button></td>
             </tr>
             <tr>
                 <td><h3>14</h3></td>
@@ -191,70 +191,71 @@
                 <td>
                     <h3>Construir una trbrería de funciones de vatrdación de campos de formularios para utitrzarla en los siguientes ejercicios.</h3>
                 </td>
-                <td><button>Ejecutar</button></td>
-                <td><button>Mostrar codigo</button></td>
+                <td><button style="visibility: hidden">Ejecutar</button></td>
+                <td><button style="visibility: hidden">Mostrar codigo</button></td>
             </tr>
             <tr>
                 <td><h3>20</h3></td>
                 <td>
                     <h3>Convertir la trbreriaVatrdacionFormularios.php en una clase VatrdacionFormularios.php. El profesor facitrtará a los alumnos la clase AAMMDDVatrdacionFormularios.php desarrollada en el curso anterior como punto de partida.</h3>
                 </td>
-                <td><button>Ejecutar</button></td>
-                <td><button>Mostrar codigo</button></td>
+                <td><button style="visibility: hidden">Ejecutar</button></td>
+                <td><button style="visibility: hidden">Mostrar codigo</button></td>
             </tr>
             <tr>
                 <td><h3>21</h3></td>
                 <td>
                     <h3>Construir un formulario para recoger un cuestionario reatrzado a una persona y enviarlo a una página Tratamiento.php para que muestre las preguntas y las respuestas recogidas.</h3>
                 </td>
-                <td><button>Ejecutar</button></td>
-                <td><button>Mostrar codigo</button></td>
+                <td><button style="visibility: hidden">Ejecutar</button></td>
+                <td><button style="visibility: hidden">Mostrar codigo</button></td>
             </tr>
             <tr>
                 <td><h3>22</h3></td>
                 <td>
                     <h3>Construir un formulario para recoger un cuestionario reatrzado a una persona y mostrar en la misma página las preguntas y las respuestas recogidas.</h3>
                 </td>
-                <td><button>Ejecutar</button></td>
-                <td><button>Mostrar codigo</button></td>
+                <td><button style="visibility: hidden">Ejecutar</button></td>
+                <td><button style="visibility: hidden">Mostrar codigo</button></td>
             </tr>
             <tr>
                 <td><h3>23</h3></td>
                 <td>
                     <h3>Construir un formulario para recoger un cuestionario reatrzado a una persona y mostrar en la misma página las preguntas y las respuestas recogidas; en el caso de que alguna respuesta esté vacía o errónea volverá a satrr el formulario con el mensaje correspondiente.</h3>
                 </td>
-                <td><button>Ejecutar</button></td>
-                <td><button>Mostrar codigo</button></td>
+                <td><button style="visibility: hidden">Ejecutar</button></td>
+                <td><button style="visibility: hidden">Mostrar codigo</button></td>
             </tr>
             <tr>
                 <td><h3>24</h3></td>
                 <td>
                     <h3>Construir un formulario para recoger un cuestionario reatrzado a una persona y mostrar en la misma página las preguntas y las respuestas recogidas; en el caso de que alguna respuesta esté vacía o errónea volverá a satrr el formulario con el mensaje correspondiente, pero las respuestas que habíamos tecleado correctamente aparecerán en el formulario y no tendremos que volver a teclearlas.</h3>
                 </td>
-                <td><button>Ejecutar</button></td>
-                <td><button>Mostrar codigo</button></td>
+                <td><button style="visibility: hidden">Ejecutar</button></td>
+                <td><button style="visibility: hidden">Mostrar codigo</button></td>
             </tr>
             <tr>
                 <td><h3>25</h3></td>
                 <td>
                     <h3>Trabajar en PlantillaFormulario.php mi plantilla para hacer formularios como churros.</h3>
                 </td>
-                <td><button>Ejecutar</button></td>
-                <td><button>Mostrar codigo</button></td>
+                <td><button style="visibility: hidden">Ejecutar</button></td>
+                <td><button style="visibility: hidden">Mostrar codigo</button></td>
             </tr>
             <tr>
                 <td><h3>26</h3></td>
                 <td>
                     <h3>Probar la plantilla anterior desarrollando un formulario que recoja la temperatura y la presión atmosférica en una serie de fechas y (cuando el usuario lo decida) genere un informe con los datos recibidos y un promedios, mínimos y máximos de temperatura y presión atmosférica.</h3>
                 </td>
-                <td><button>Ejecutar</button></td>
-                <td><button>Mostrar codigo</button></td>
+                <td><button style="visibility: hidden">Ejecutar</button></td>
+                <td><button style="visibility: hidden">Mostrar codigo</button></td>
             </tr>
         </table>
     </div>
 
     <div class="footer">
-        <h3>James Edward Nuñez Cuzcano</h3>
+        <button onclick="location.href = '../'"><h3>James Edward Nuñez Cuzcano</h3></button>
+        
     </div>
 </body>
 
