@@ -30,8 +30,8 @@
                 <td>
                     <h3>Hola mundo y phpinfo().</h3>
                 </td>
-                <td><button class="active" onclick="window.open('./codigoPHP/ejercicio00.php')">Ejecutar</button></td>
-                <td><button class="active" onclick="window.open('https://github.com/JameseNunCuz/JENCDWESProyectoTema3/blob/developerJENC/codigoPHP/ejercicio00.php')">Mostrar codigo</button></td>
+                <td><button class="active" onclick="location.href = './codigoPHP/ejercicio00.php'">Ejecutar</button></td>
+                <td><button class="active" onclick="location.href = 'https://github.com/JameseNunCuz/JENCDWESProyectoTema3/blob/developerJENC/codigoPHP/ejercicio00.php'">Mostrar codigo</button></td>
             </tr>
             <tr>
                 <td><h3>1</h3></td>
@@ -39,96 +39,96 @@
                     <h3>Iniciatrzar variables de los distintos tipos de datos básicos y mostrar los datos por
                         pantalla</h3>
                 </td>
-                <td><button class="active" onclick="window.open('./codigoPHP/ejercicio01.php')">Ejecutar</button></td>
-                <td><button class="active" onclick="window.open('https://github.com/JameseNunCuz/JENCDWESProyectoTema3/blob/developerJENC/codigoPHP/ejercicio01.php')">Mostrar codigo</button></td>
+                <td><button class="active" onclick="location.href = './codigoPHP/ejercicio01.php'">Ejecutar</button></td>
+                <td><button class="active" onclick="location.href = 'https://github.com/JameseNunCuz/JENCDWESProyectoTema3/blob/developerJENC/codigoPHP/ejercicio01.php'">Mostrar codigo</button></td>
             </tr>
             <tr>
                 <td><h3>2</h3></td>
                 <td>
                     <h3>Iniciatrzar y mostrar una variable heredoc</h3>
                 </td>
-                <td><button class="active" onclick="window.open('./codigoPHP/ejercicio02.php')">Ejecutar</button></td>
-                <td><button class="active" onclick="window.open('https://github.com/JameseNunCuz/JENCDWESProyectoTema3/blob/developerJENC/codigoPHP/ejercicio02.php')">Mostrar codigo</button></td>
+                <td><button class="active" onclick="location.href = './codigoPHP/ejercicio02.php'">Ejecutar</button></td>
+                <td><button class="active" onclick="location.href = 'https://github.com/JameseNunCuz/JENCDWESProyectoTema3/blob/developerJENC/codigoPHP/ejercicio02.php'">Mostrar codigo</button></td>
             </tr>
             <tr>
                 <td><h3>3</h3></td>
                 <td>
                     <h3>Mostrar en tu página index la fecha y hora actual formateada en castellano.</h3>
                 </td>
-                <td><button class="active" onclick="window.open('./codigoPHP/ejercicio03.php')">Ejecutar</button></td>
-                <td><button class="active" onclick="window.open('https://github.com/JameseNunCuz/JENCDWESProyectoTema3/blob/developerJENC/codigoPHP/ejercicio03.php')">Mostrar codigo</button></td>
+                <td><button class="active" onclick="location.href = './codigoPHP/ejercicio03.php'">Ejecutar</button></td>
+                <td><button class="active" onclick="location.href = 'https://github.com/JameseNunCuz/JENCDWESProyectoTema3/blob/developerJENC/codigoPHP/ejercicio03.php'">Mostrar codigo</button></td>
             </tr>
             <tr>
                 <td><h3>4</h3></td>
                 <td>
                     <h3>Mostrar en tu página index la fecha y hora actual en Oporto formateada en portugués</h3>
                 </td>
-                <td><button class="active" onclick="window.open('./codigoPHP/ejercicio04.php')">Ejecutar</button></td>
-                <td><button class="active" onclick="window.open('https://github.com/JameseNunCuz/JENCDWESProyectoTema3/blob/developerJENC/codigoPHP/ejercicio04.php')">Mostrar codigo</button></td>
+                <td><button class="active" onclick="location.href = './codigoPHP/ejercicio04.php'">Ejecutar</button></td>
+                <td><button class="active" onclick="location.href = 'https://github.com/JameseNunCuz/JENCDWESProyectoTema3/blob/developerJENC/codigoPHP/ejercicio04.php'">Mostrar codigo</button></td>
             </tr>
             <tr>
                 <td><h3>5</h3></td>
                 <td>
                     <h3>Iniciatrzar y mostrar una variable que tiene una marca de tiempo</h3>
                 </td>
-                <td><button class="active" onclick="window.open('./codigoPHP/ejercicio05.php')">Ejecutar</button></td>
-                <td><button class="active" onclick="window.open('https://github.com/JameseNunCuz/JENCDWESProyectoTema3/blob/developerJENC/codigoPHP/ejercicio05.php')">Mostrar codigo</button></td>
+                <td><button class="active" onclick="location.href = './codigoPHP/ejercicio05.php'">Ejecutar</button></td>
+                <td><button class="active" onclick="location.href = 'https://github.com/JameseNunCuz/JENCDWESProyectoTema3/blob/developerJENC/codigoPHP/ejercicio05.php'">Mostrar codigo</button></td>
             </tr>
             <tr>
                 <td><h3>6</h3></td>
                 <td>
                     <h3>Operar con fechas: calcular la fecha y el día de la semana de dentro de 60 días</h3>
                 </td>
-                <td><button class="active" onclick="window.open('./codigoPHP/ejercicio06.php')">Ejecutar</button></td>
-                <td><button class="active" onclick="window.open('https://github.com/JameseNunCuz/JENCDWESProyectoTema3/blob/developerJENC/codigoPHP/ejercicio06.php')">Mostrar codigo</button></td>
+                <td><button class="active" onclick="location.href = './codigoPHP/ejercicio06.php'">Ejecutar</button></td>
+                <td><button class="active" onclick="location.href = 'https://github.com/JameseNunCuz/JENCDWESProyectoTema3/blob/developerJENC/codigoPHP/ejercicio06.php'">Mostrar codigo</button></td>
             </tr>
             <tr>
                 <td><h3>7</h3></td>
                 <td>
                     <h3>Mostrar el nombre del fichero que se está ejecutando.</h3>
                 </td>
-                <td><button class="active" onclick="window.open('./codigoPHP/ejercicio07.php')">Ejecutar</button></td>
-                <td><button class="active" onclick="window.open('https://github.com/JameseNunCuz/JENCDWESProyectoTema3/blob/developerJENC/codigoPHP/ejercicio07.php')">Mostrar codigo</button></td>
+                <td><button class="active" onclick="location.href = './codigoPHP/ejercicio07.php'">Ejecutar</button></td>
+                <td><button class="active" onclick="location.href = 'https://github.com/JameseNunCuz/JENCDWESProyectoTema3/blob/developerJENC/codigoPHP/ejercicio07.php'">Mostrar codigo</button></td>
             </tr>
             <tr>
                 <td><h3>8</h3></td>
                 <td>
                     <h3>Mostrar la dirección IP del equipo desde el que estás accediendo.</h3>
                 </td>
-                <td><button class="active" onclick="window.open('./codigoPHP/ejercicio08.php')">Ejecutar</button></td>
-                <td><button class="active" onclick="window.open('https://github.com/JameseNunCuz/JENCDWESProyectoTema3/blob/developerJENC/codigoPHP/ejercicio08.php')">Mostrar codigo</button></td>
+                <td><button class="active" onclick="location.href = './codigoPHP/ejercicio08.php'">Ejecutar</button></td>
+                <td><button class="active" onclick="location.href = 'https://github.com/JameseNunCuz/JENCDWESProyectoTema3/blob/developerJENC/codigoPHP/ejercicio08.php'">Mostrar codigo</button></td>
             </tr>
             <tr>
                 <td><h3>9</h3></td>
                 <td>
                     <h3>Mostrar el path donde se encuentra el fichero que se está ejecutando</h3>
                 </td>
-                <td><button class="active" onclick="window.open('./codigoPHP/ejercicio09.php')">Ejecutar</button></td>
-                <td><button class="active" onclick="window.open('https://github.com/JameseNunCuz/JENCDWESProyectoTema3/blob/developerJENC/codigoPHP/ejercicio09.php')">Mostrar codigo</button></td>
+                <td><button class="active" onclick="location.href = './codigoPHP/ejercicio09.php'">Ejecutar</button></td>
+                <td><button class="active" onclick="location.href = 'https://github.com/JameseNunCuz/JENCDWESProyectoTema3/blob/developerJENC/codigoPHP/ejercicio09.php'">Mostrar codigo</button></td>
             </tr>
             <tr>
                 <td><h3>10</h3></td>
                 <td>
                     <h3>Mostrar el path y el nombre del fichero que se está ejecutando</h3>
                 </td>
-                <td><button class="active" onclick="window.open('./codigoPHP/ejercicio10.php')">Ejecutar</button></td>
-                <td><button class="active" onclick="window.open('https://github.com/JameseNunCuz/JENCDWESProyectoTema3/blob/developerJENC/codigoPHP/ejercicio10.php')">Mostrar codigo</button></td>
+                <td><button class="active" onclick="location.href = './codigoPHP/ejercicio10.php'">Ejecutar</button></td>
+                <td><button class="active" onclick="location.href = 'https://github.com/JameseNunCuz/JENCDWESProyectoTema3/blob/developerJENC/codigoPHP/ejercicio10.php'">Mostrar codigo</button></td>
             </tr>
             <tr>
                 <td><h3>11</h3></td>
                 <td>
                     <h3>Mostrar el documento PHPDoc del proyecto que se está ejecutando generado con PHP Documentor o ApiGen</h3>
                 </td>
-                <td><button class="active" style="visibility: hidden" onclick="window.open('./codigoPHP/ejercicio11.php')">Ejecutar</button></td>
-                <td><button class="active" style="visibility: hidden" onclick="window.open('https://github.com/JameseNunCuz/JENCDWESProyectoTema3/blob/developerJENC/codigoPHP/ejercicio11.php')">Mostrar codigo</button></td>
+                <td><button class="active" style="visibility: hidden" onclick="location.href = './codigoPHP/ejercicio11.php'">Ejecutar</button></td>
+                <td><button class="active" style="visibility: hidden" onclick="location.href = 'https://github.com/JameseNunCuz/JENCDWESProyectoTema3/blob/developerJENC/codigoPHP/ejercicio11.php'">Mostrar codigo</button></td>
             </tr>
             <tr>
                 <td><h3>12</h3></td>
                 <td>
                     <h3>Mostrar el contenido de las variables superglobales</h3>
                 </td>
-                <td><button class="active" onclick="window.open('./codigoPHP/ejercicio12.php')">Ejecutar</button></td>
-                <td><button class="active" onclick="window.open('https://github.com/JameseNunCuz/JENCDWESProyectoTema3/blob/developerJENC/codigoPHP/ejercicio12.php')">Mostrar codigo</button></td>
+                <td><button class="active" onclick="location.href = './codigoPHP/ejercicio12.php'">Ejecutar</button></td>
+                <td><button class="active" onclick="location.href = 'https://github.com/JameseNunCuz/JENCDWESProyectoTema3/blob/developerJENC/codigoPHP/ejercicio12.php'">Mostrar codigo</button></td>
             </tr>
             <tr>
                 <td><h3>13</h3></td>
@@ -148,8 +148,8 @@
                         de
                         explotación.</h3>
                 </td>
-                <td><button class="active" onclick="window.open('./codigoPHP/ejercicio14.php')">Ejecutar</button></td>
-                <td><button class="active" onclick="window.open('https://github.com/JameseNunCuz/JENCDWESProyectoTema3/blob/developerJENC/codigoPHP/ejercicio14.php')">Mostrar codigo</button></td>
+                <td><button class="active" onclick="location.href = './codigoPHP/ejercicio14.php'">Ejecutar</button></td>
+                <td><button class="active" onclick="location.href = 'https://github.com/JameseNunCuz/JENCDWESProyectoTema3/blob/developerJENC/codigoPHP/ejercicio14.php'">Mostrar codigo</button></td>
             </tr>
             <tr>
                 <td><h3>15</h3></td>
@@ -158,16 +158,16 @@
                         para
                         calcular el sueldo percibido durante la semana.</h3>
                 </td>
-                <td><button class="active" onclick="window.open('./codigoPHP/ejercicio15.php')">Ejecutar</button></td>
-                <td><button class="active" onclick="window.open('https://github.com/JameseNunCuz/JENCDWESProyectoTema3/blob/developerJENC/codigoPHP/ejercicio15.php')">Mostrar codigo</button></td>
+                <td><button class="active" onclick="location.href = './codigoPHP/ejercicio15.php'">Ejecutar</button></td>
+                <td><button class="active" onclick="location.href = 'https://github.com/JameseNunCuz/JENCDWESProyectoTema3/blob/developerJENC/codigoPHP/ejercicio15.php'">Mostrar codigo</button></td>
             </tr>
             <tr>
                 <td><h3>16</h3></td>
                 <td>
                     <h3>Recorrer el array anterior utitrzando funciones para obtener el mismo resultado</h3>
                 </td>
-                <td><button class="active" onclick="window.open('./codigoPHP/ejercicio16.php')">Ejecutar</button></td>
-                <td><button class="active" onclick="window.open('https://github.com/JameseNunCuz/JENCDWESProyectoTema3/blob/developerJENC/codigoPHP/ejercicio16.php')">Mostrar codigo</button></td>
+                <td><button class="active" onclick="location.href = './codigoPHP/ejercicio16.php'">Ejecutar</button></td>
+                <td><button class="active" onclick="location.href = 'https://github.com/JameseNunCuz/JENCDWESProyectoTema3/blob/developerJENC/codigoPHP/ejercicio16.php'">Mostrar codigo</button></td>
             </tr>
             <tr>
                 <td><h3>17</h3></td>
@@ -177,19 +177,19 @@
                         en un teatro de 20 filas y 15 asientos por fila.Recorrer el array con distintas técnicas para
                         mostrar los asientos ocupados en cada fila y las personas que lo ocupan.</h3>
                 </td>
-                <td><button class="active" onclick="window.open('./codigoPHP/ejercicio17.php')">Ejecutar</button></td>
-                <td><button class="active" onclick="window.open('https://github.com/JameseNunCuz/JENCDWESProyectoTema3/blob/developerJENC/codigoPHP/ejercicio17.php')">Mostrar codigo</button></td>
+                <td><button class="active" onclick="location.href = './codigoPHP/ejercicio17.php'">Ejecutar</button></td>
+                <td><button class="active" onclick="location.href = 'https://github.com/JameseNunCuz/JENCDWESProyectoTema3/blob/developerJENC/codigoPHP/ejercicio17.php'">Mostrar codigo</button></td>
             </tr>
             <tr>
                 <td><h3>18</h3></td>
                 <td><h3>Recorrer el array anterior utitrzando funciones para obtener el mismo resultado.</h3></td>
-                <td><button class="active" onclick="window.open('./codigoPHP/ejercicio18.php')">Ejecutar</button></td>
-                <td><button class="active" onclick="window.open('https://github.com/JameseNunCuz/JENCDWESProyectoTema3/blob/developerJENC/codigoPHP/ejercicio18.php')">Mostrar codigo</button></td>
+                <td><button class="active" onclick="location.href = './codigoPHP/ejercicio18.php'">Ejecutar</button></td>
+                <td><button class="active" onclick="location.href = 'https://github.com/JameseNunCuz/JENCDWESProyectoTema3/blob/developerJENC/codigoPHP/ejercicio18.php'">Mostrar codigo</button></td>
             </tr>
             <tr>
                 <td><h3>19</h3></td>
                 <td>
-                    <h3>Construir una trbrería de funciones de vatrdación de campos de formularios para utitrzarla en los siguientes ejercicios.</h3>
+                    <h3>Construir una librería de funciones de vatrdación de campos de formularios para utitrzarla en los siguientes ejercicios.</h3>
                 </td>
                 <td><button style="visibility: hidden">Ejecutar</button></td>
                 <td><button style="visibility: hidden">Mostrar codigo</button></td>
@@ -197,7 +197,7 @@
             <tr>
                 <td><h3>20</h3></td>
                 <td>
-                    <h3>Convertir la trbreriaVatrdacionFormularios.php en una clase VatrdacionFormularios.php. El profesor facitrtará a los alumnos la clase AAMMDDVatrdacionFormularios.php desarrollada en el curso anterior como punto de partida.</h3>
+                    <h3>Convertir la libreriaVatrdacionFormularios.php en una clase VatrdacionFormularios.php. El profesor facitrtará a los alumnos la clase AAMMDDVatrdacionFormularios.php desarrollada en el curso anterior como punto de partida.</h3>
                 </td>
                 <td><button style="visibility: hidden">Ejecutar</button></td>
                 <td><button style="visibility: hidden">Mostrar codigo</button></td>
@@ -207,8 +207,8 @@
                 <td>
                     <h3>Construir un formulario para recoger un cuestionario reatrzado a una persona y enviarlo a una página Tratamiento.php para que muestre las preguntas y las respuestas recogidas.</h3>
                 </td>
-                <td><button style="visibility: hidden">Ejecutar</button></td>
-                <td><button style="visibility: hidden">Mostrar codigo</button></td>
+                <td><button class="active" onclick="location.href = './codigoPHP/ejercicio21.php'">Ejecutar</button></td>
+                <td><button class="active" onclick="location.href = 'https://github.com/JameseNunCuz/JENCDWESProyectoTema3/blob/developerJENC/codigoPHP/ejercicio21.php'">Mostrar codigo</button></td>
             </tr>
             <tr>
                 <td><h3>22</h3></td>
