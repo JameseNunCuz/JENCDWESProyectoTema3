@@ -215,16 +215,16 @@
                 <td>
                     <h3>Construir un formulario para recoger un cuestionario reatrzado a una persona y mostrar en la misma página las preguntas y las respuestas recogidas.</h3>
                 </td>
-                <td><button style="visibility: hidden">Ejecutar</button></td>
-                <td><button style="visibility: hidden">Mostrar codigo</button></td>
+                <td><button class="active" onclick="location.href = './codigoPHP/ejercicio22.php'">Ejecutar</button></td>
+                <td><button class="active" onclick="location.href = 'https://github.com/JameseNunCuz/JENCDWESProyectoTema3/blob/developerJENC/codigoPHP/ejercicio22.php'">Mostrar codigo</button></td>
             </tr>
             <tr>
                 <td><h3>23</h3></td>
                 <td>
                     <h3>Construir un formulario para recoger un cuestionario reatrzado a una persona y mostrar en la misma página las preguntas y las respuestas recogidas; en el caso de que alguna respuesta esté vacía o errónea volverá a satrr el formulario con el mensaje correspondiente.</h3>
                 </td>
-                <td><button style="visibility: hidden">Ejecutar</button></td>
-                <td><button style="visibility: hidden">Mostrar codigo</button></td>
+                <td><button class="active" onclick="location.href = './codigoPHP/ejercicio23.php'">Ejecutar</button></td>
+                <td><button class="active" onclick="location.href = 'https://github.com/JameseNunCuz/JENCDWESProyectoTema3/blob/developerJENC/codigoPHP/ejercicio23.php'">Mostrar codigo</button></td>
             </tr>
             <tr>
                 <td><h3>24</h3></td>
