@@ -231,8 +231,8 @@
                 <td>
                     <h3>Construir un formulario para recoger un cuestionario reatrzado a una persona y mostrar en la misma página las preguntas y las respuestas recogidas; en el caso de que alguna respuesta esté vacía o errónea volverá a satrr el formulario con el mensaje correspondiente, pero las respuestas que habíamos tecleado correctamente aparecerán en el formulario y no tendremos que volver a teclearlas.</h3>
                 </td>
-                <td><button style="visibility: hidden">Ejecutar</button></td>
-                <td><button style="visibility: hidden">Mostrar codigo</button></td>
+                <td><button class="active" onclick="location.href = './codigoPHP/ejercicio24.php'">Ejecutar</button></td>
+                <td><button class="active" onclick="location.href = 'https://github.com/JameseNunCuz/JENCDWESProyectoTema3/blob/developerJENC/codigoPHP/ejercicio24.php'">Mostrar codigo</button></td>
             </tr>
             <tr>
                 <td><h3>25</h3></td>
