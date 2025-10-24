@@ -23,12 +23,12 @@
       *@version 23/10/2025
       */
 
-    $mostrarFormulario = null;     //Variable que indica si hay nque mostrar o no el formulario
+    $mostrarFormulario = true;     //Variable que indica si hay nque mostrar o no el formulario
     
     //----------------Comprobación del formulario----------------
     //Si se ha recibido el formulario valida las respuestas
     if (isset($_REQUEST["submit"])) {
-        require "../core/231018libreriaValidacion.php"; //Requiere la libreria de validacion
+        require_once "../core/231018libreriaValidacion.php"; //Requiere la libreria de validacion
     
         $validacion = new validacionFormularios(); //Objeto de la clase de validacion
     
@@ -56,10 +56,6 @@
             echo ($errores[1] . "<br>");
             echo ($errores[2] . "<br>");
         }
-
-    //No se ha recibido el formulario
-    } else {
-        $mostrarFormulario = true; //Se indica que saque el formulario por pantalla
     }
 
     //----------------Saca el formulario por pantalla----------------
