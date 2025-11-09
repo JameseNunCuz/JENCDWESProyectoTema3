@@ -199,8 +199,8 @@
                 <td>
                     <h3>Convertir la libreriaVatrdacionFormularios.php en una clase VatrdacionFormularios.php. El profesor facitrtará a los alumnos la clase AAMMDDVatrdacionFormularios.php desarrollada en el curso anterior como punto de partida.</h3>
                 </td>
-                <td><button style="visibility: hidden">Ejecutar</button></td>
-                <td><button style="visibility: hidden">Mostrar codigo</button></td>
+                <td><button class="active" onclick="location.href = './codigoPHP/ejercicio20.php'">Ejecutar</button></td>
+                <td><button class="active" onclick="location.href = './mostrarcodigo/muestraEjercicio20.php'">Mostrar codigo</button></td>
             </tr>
             <tr>
                 <td><h3>21</h3></td>
@@ -233,22 +233,6 @@
                 </td>
                 <td><button class="active" onclick="location.href = './codigoPHP/ejercicio24.php'">Ejecutar</button></td>
                 <td><button class="active" onclick="location.href = './mostrarcodigo/muestraEjercicio24.php'">Mostrar codigo</button></td>
-            </tr>
-            <tr>
-                <td><h3>25</h3></td>
-                <td>
-                    <h3>Trabajar en PlantillaFormulario.php mi plantilla para hacer formularios como churros.</h3>
-                </td>
-                <td><button style="visibility: hidden">Ejecutar</button></td>
-                <td><button style="visibility: hidden">Mostrar codigo</button></td>
-            </tr>
-            <tr>
-                <td><h3>26</h3></td>
-                <td>
-                    <h3>Probar la plantilla anterior desarrollando un formulario que recoja la temperatura y la presión atmosférica en una serie de fechas y (cuando el usuario lo decida) genere un informe con los datos recibidos y un promedios, mínimos y máximos de temperatura y presión atmosférica.</h3>
-                </td>
-                <td><button style="visibility: hidden">Ejecutar</button></td>
-                <td><button style="visibility: hidden">Mostrar codigo</button></td>
             </tr>
         </table>
     </div>

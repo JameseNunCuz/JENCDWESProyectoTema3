@@ -4,8 +4,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ejercicio 23</title>
+    <title>Ejercicio 24</title>
     <link rel="stylesheet" href="../webroot/css/style.css">
+    <style>
+        .required {
+            background-color: lightyellow;
+        }
+
+        .readonly {
+            background-color: lightgray;
+        }
+
+        .error {
+            color: red;
+        }
+    </style>
 </head>
 
 <body>
@@ -24,6 +37,7 @@
       */
 
     $mostrarFormulario = null;     //Variable que indica si hay nque mostrar o no el formulario
+    $errores = [];//Array para almacenar los mensajes de error
     
     //----------------Comprobación del formulario----------------
     //Si se ha recibido el formulario valida las respuestas
@@ -31,8 +45,6 @@
         require "../core/231018libreriaValidacion.php"; //Requiere la libreria de validacion
     
         $validacion = new validacionFormularios(); //Objeto de la clase de validacion
-    
-        $errores = [];//Array para almacenar los mensajes de error
     
         array_push($errores, $validacion->comprobarAlfabetico($_REQUEST["nombre"], 50, 3, 1)); //Comprobacion del nombre
         array_push($errores, $validacion->validarTelefono($_REQUEST["numeroTelefono"], 1)); //Comprobacion del telefono
@@ -46,18 +58,13 @@
             echo "El email es: " . $_REQUEST["email"] . "<br>";
 
             $mostrarFormulario = false; //Se indica que no saque el formulario
-
-        //Los datos son invalidos, volver a mostrar el formulario y sacar errores por pantalla
+    
+            //Los datos son invalidos, volver a mostrar el formulario y sacar errores por pantalla
         } else {
             $mostrarFormulario = true; //Se indica que saque el formulario por pantalla
-
-            //Se imprimen los errores por pantalla
-            echo ($errores[0] . "<br>");
-            echo ($errores[1] . "<br>");
-            echo ($errores[2] . "<br>");
         }
 
-    //No se ha recibido el formulario
+        //No se ha recibido el formulario
     } else {
         $mostrarFormulario = true; //Se indica que saque el formulario por pantalla
     }
@@ -68,16 +75,43 @@
 
         <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
             <label for="nombre">Nombre</label>
-            <input type="text" id="nombre" name="nombre" placeholder="Nombre" value="<?php if(isset($_REQUEST["nombre"])){echo $_REQUEST["nombre"];} ?>">
-            <br>
+            <?php
+            if (isset($errores[0]) && empty($errores[0])) {
+                echo "<input type='text' id='nombre' name='nombre' placeholder='Nombre' value='" . $_REQUEST["nombre"] . "'>";
+            } else {
+                echo "<input type='text' id='nombre' name='nombre' placeholder='Nombre'>";
+            }
+
+            if (isset($errores[0])) {
+                echo ("<label class='error'>" . $errores[0] . "</label>");
+            }
+            ?><br>
 
             <label for="telefono">Nº de telefono</label>
-            <input type="tel" id="numeroTelefono" name="numeroTelefono" placeholder="123456789" value="<?php if(isset($_REQUEST["numeroTelefono"])){echo $_REQUEST["numeroTelefono"];} ?>">
-            <br>
+            <?php
+            if (isset($errores[1]) && empty($errores[1])) {
+                echo "<input type='tel' id='numeroTelefono' name='numeroTelefono' placeholder='123456789' value='" . $_REQUEST["numeroTelefono"] . "'>";
+            } else {
+                echo "<input type='tel' id='numeroTelefono' name='numeroTelefono' placeholder='123456789'>";
+            }
+
+            if (isset($errores[1])) {
+                echo ("<label class='error'>" . $errores[1] . "</label>");
+            }
+            ?><br>
 
             <label for="email">Correo electronico</label>
-            <input type="email" id="email" name="email" placeholder="algo@algo.algo" value="<?php if(isset($_REQUEST["email"])){echo $_REQUEST["email"];} ?>">
-            <br>
+            <?php
+            if (is_null($errores[2])) {
+                echo "<input type='text' id='email' name='email' placeholder='algo@algo.algo' value='" . $_REQUEST["email"] . "'>";
+            } else {
+                echo "<input type='text' id='email' name='email' placeholder='algo@algo.algo'>";
+            }
+
+            if (isset($errores[2])) {
+                echo ("<label class='error'>" . $errores[2] . "</label>");
+            }
+            ?><br>
 
             <button type="submit" name="submit">Enviar</button>
         </form>

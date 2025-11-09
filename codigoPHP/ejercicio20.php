@@ -20,10 +20,15 @@
   <?php /** 
     *@author James Edward
     *@since 20/10/2025
-    *@version 20/10/2025
+    *@version 09/11/2025
     */
 
   require("../core/231018libreriaValidacion.php");
+
+  $validacion = new validacionFormularios();
+  echo $validacion->comprobarAlfaNumerico("Hola", 100, 7, 1);
+  echo "<br>";
+  echo validacionFormularios::comprobarAlfaNumerico("Hola", 2, 1, 1);
 
   ?>
 

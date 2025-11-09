@@ -20,7 +20,7 @@
         <?php /** 
           *@author James Edward
           *@since 10/10/2025
-          *@version 17/10/2025
+          *@version 09/11/2025
           */
         $heredocString = <<<EOD
         String
@@ -28,7 +28,7 @@
         lineas
         EOD;
 
-        echo $heredocString;
+        echo "<pre>$heredocString</pre>";
         ?>
 
         <div class="footer">

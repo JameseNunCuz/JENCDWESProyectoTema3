@@ -6,6 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejercicio 23</title>
     <link rel="stylesheet" href="../webroot/css/style.css">
+    <style>
+        .required {
+            background-color: lightyellow;
+        }
+
+        .readonly {
+            background-color: lightgray;
+        }
+
+        .error {
+            color: red;
+        }
+    </style>
 </head>
 
 <body>
@@ -20,10 +33,11 @@
     <?php /** 
       *@author James Edward
       *@since 23/10/2025
-      *@version 23/10/2025
+      *@version 09/11/2025
       */
 
     $mostrarFormulario = true;     //Variable que indica si hay nque mostrar o no el formulario
+    $errores = [];//Array para almacenar los mensajes de error
     
     //----------------Comprobación del formulario----------------
     //Si se ha recibido el formulario valida las respuestas
@@ -31,8 +45,6 @@
         require_once "../core/231018libreriaValidacion.php"; //Requiere la libreria de validacion
     
         $validacion = new validacionFormularios(); //Objeto de la clase de validacion
-    
-        $errores = [];//Array para almacenar los mensajes de error
     
         array_push($errores, $validacion->comprobarAlfabetico($_REQUEST["nombre"], 50, 3, 1)); //Comprobacion del nombre
         array_push($errores, $validacion->validarTelefono($_REQUEST["numeroTelefono"], 1)); //Comprobacion del telefono
@@ -46,15 +58,10 @@
             echo "El email es: " . $_REQUEST["email"] . "<br>";
 
             $mostrarFormulario = false; //Se indica que no saque el formulario
-
-        //Los datos son invalidos, volver a mostrar el formulario y sacar errores por pantalla
+    
+            //Los datos son invalidos, volver a mostrar el formulario y sacar errores por pantalla
         } else {
             $mostrarFormulario = true; //Se indica que saque el formulario por pantalla
-
-            //Se imprimen los errores por pantalla
-            echo ($errores[0] . "<br>");
-            echo ($errores[1] . "<br>");
-            echo ($errores[2] . "<br>");
         }
     }
 
@@ -65,14 +72,23 @@
         <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
             <label for="nombre">Nombre</label>
             <input type="text" id="nombre" name="nombre" placeholder="Nombre">
+            <?php if (isset($errores[0])) {
+                echo "<label class='error'>" . $errores[0] . "</label>";
+            } ?>
             <br>
 
             <label for="telefono">Nº de telefono</label>
             <input type="tel" id="numeroTelefono" name="numeroTelefono" placeholder="123456789">
+            <?php if (isset($errores[1])) {
+                echo ("<label class='error'>" . $errores[1] . "</label>");
+            } ?>
             <br>
 
             <label for="email">Correo electronico</label>
             <input type="email" id="email" name="email" placeholder="algo@algo.algo">
+            <?php if (isset($errores[2])) {
+                echo ("<label class='error'>" . $errores[2] . "</label>");
+            } ?>
             <br>
 
             <button type="submit" name="submit">Enviar</button>
