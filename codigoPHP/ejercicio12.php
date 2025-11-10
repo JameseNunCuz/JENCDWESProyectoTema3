@@ -9,75 +9,87 @@
 </head>
 
 <body>
-    <div class="header">
-        <div class="title">
-            <h1>Desarrollo web en entorno servidor</h1>
-            <h2>Tema 3: Caracteristicas del lenguaje PHP</h2>
-        </div>
-        <button class="home active" onclick="location.href = '../'">Volver</button>
-    </div>
+    <header>
+        <table>
+            <tr>
+                <td>
+                    <h2>Desarrollo web en entorno servidor</h2>
+                </td>
+                <td>
+                    <h1>Tema 3: Caracteristicas del lenguaje PHP</h1>
+                </td>
+                <td>
+                    <button class="active" onclick="location.href = '../'">
+                        <h5>Volver</h5>
+                    </button>
+                </td>
+            </tr>
+        </table>
+    </header>
 
-    <?php /** 
-      *@author James Edward
-      *@since 17/10/2025
-      *@version 20/10/2025
-      */
+    <main>
 
-    echo "<h2>Contenidos _SERVER: </h2>";
-    foreach ($_SERVER as $key => $value) {
-        print_r($key . "=> " . $value . "<br>");
-    }
+        <?php /** 
+          *@author James Edward
+          *@since 17/10/2025
+          *@version 20/10/2025
+          */
 
-    echo "<h2>Contenidos _SESSION: </h2>";
-    if (isset($_SESSION)) {
-        foreach ($_SESSION as $key => $value) {
-            print_r($key . " => " . $value . "<br>");
+        echo "<h2>Contenidos _SERVER: </h2>";
+        foreach ($_SERVER as $key => $value) {
+            print_r($key . "=> " . $value . "<br>");
         }
-    }
 
-    echo "<h2>Contenidos _COOKIE: </h2>";
-    foreach ($_COOKIE as $key => $value) {
-        print_r($key . "=> " . $value . "<br>");
-    }
+        echo "<h2>Contenidos _SESSION: </h2>";
+        if (isset($_SESSION)) {
+            foreach ($_SESSION as $key => $value) {
+                print_r($key . " => " . $value . "<br>");
+            }
+        }
 
-    echo "<h2>Contenidos _GET: </h2>";
-    foreach ($_GET as $key => $value) {
-        print_r($key . "=> " . $value . "<br>");
-    }
+        echo "<h2>Contenidos _COOKIE: </h2>";
+        foreach ($_COOKIE as $key => $value) {
+            print_r($key . "=> " . $value . "<br>");
+        }
 
-    echo "<h2>Contenidos _POST: </h2>";
-    foreach ($_POST as $key => $value) {
-        print_r($key . "=> " . $value . "<br>");
-    }
+        echo "<h2>Contenidos _GET: </h2>";
+        foreach ($_GET as $key => $value) {
+            print_r($key . "=> " . $value . "<br>");
+        }
 
-    echo "<h2>Contenidos _REQUEST: </h2>";
-    foreach ($_REQUEST as $key => $value) {
-        print_r($key . "=> " . $value . "<br>");
-    }
+        echo "<h2>Contenidos _POST: </h2>";
+        foreach ($_POST as $key => $value) {
+            print_r($key . "=> " . $value . "<br>");
+        }
 
-    echo "<h2>Contenidos _FILES: </h2>";
-    foreach ($_FILES as $key => $value) {
-        print_r($key . "=> " . $value . "<br>");
-    }
+        echo "<h2>Contenidos _REQUEST: </h2>";
+        foreach ($_REQUEST as $key => $value) {
+            print_r($key . "=> " . $value . "<br>");
+        }
 
-    echo "<h2>Contenidos _ENV: </h2>";
-    foreach ($_ENV as $key => $value) {
-        print_r($key . "=> " . $value . "<br>");
-    }
+        echo "<h2>Contenidos _FILES: </h2>";
+        foreach ($_FILES as $key => $value) {
+            print_r($key . "=> " . $value . "<br>");
+        }
 
-    ?>
+        echo "<h2>Contenidos _ENV: </h2>";
+        foreach ($_ENV as $key => $value) {
+            print_r($key . "=> " . $value . "<br>");
+        }
+
+        ?>
 
 
-  </main>
+    </main>
 
-  <footer>
-    <h2>James Edward Nuñez Cuzcano</h2>
-    <div>
-      <button class="active" onclick="window.open('https://github.com/JameseNunCuz')"><img
-          src="../webresources/github.png"></button>
-      <button class="active" onclick="location.href='../../../'"><img src="../webresources/home.png"></button>
-    </div>
-  </footer>
+    <footer>
+        <h2>James Edward Nuñez Cuzcano</h2>
+        <div>
+            <button class="active" onclick="window.open('https://github.com/JameseNunCuz')"><img
+                    src="../webresources/github.png"></button>
+            <button class="active" onclick="location.href='../../../'"><img src="../webresources/home.png"></button>
+        </div>
+    </footer>
 </body>
 
 </html>
