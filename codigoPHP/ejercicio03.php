@@ -9,34 +9,52 @@
 </head>
 
 <body>
-    <div class="header">
-        <div class="title">
-            <h1>Desarrollo web en entorno servidor</h1>
-            <h2>Tema 3: Caracteristicas del lenguaje PHP</h2>
-        </div>
-    </div>
+    <header>
+        <table>
+            <tr>
+                <td>
+                    <h2>Desarrollo web en entorno servidor</h2>
+                </td>
+                <td>
+                    <h1>Tema 3: Caracteristicas del lenguaje PHP</h1>
+                </td>
+                <td>
+                    <button class="active" onclick="location.href = '../'">
+                        <h5>Volver</h5>
+                    </button>
+                </td>
+            </tr>
+        </table>
+    </header>
 
-    <?php /** 
-      *@author James Edward
-      *@since 10/10/2025
-      *@version 17/10/2025
-      */
-    $timeNow = new DateTime('now', new DateTimeZone('Europe/Madrid'));
-    ?>
+    <main>
 
-    <h2>
-        <?php echo $timeNow->format('d-m-Y H:i:s');
-        $timeNow->modify('+1 month, 7 day, -2 hour, -5 minute, +2 second');
+        <?php /** 
+          *@author James Edward
+          *@since 10/10/2025
+          *@version 17/10/2025
+          */
+        $timeNow = new DateTime('now', new DateTimeZone('Europe/Madrid'));
         ?>
-    </h2>
 
-    <h2><?php echo $timeNow->format('d-m-Y H:i:s'); ?></h2>
+        <h2>
+            <?php echo $timeNow->format('d-m-Y H:i:s');
+            $timeNow->modify('+1 month, 7 day, -2 hour, -5 minute, +2 second');
+            ?>
+        </h2>
 
-    <div class="footer">
-        <button onclick="location.href = '../../'">
-            <h3>James Edward Nuñez Cuzcano</h3>
-        </button>
-    </div>
+        <h2><?php echo $timeNow->format('d-m-Y H:i:s'); ?></h2>
+
+    </main>
+
+    <footer>
+        <h2>James Edward Nuñez Cuzcano</h2>
+        <div>
+            <button class="active" onclick="window.open('https://github.com/JameseNunCuz')"><img
+                    src="../webresources/github.png"></button>
+            <button class="active" onclick="location.href='../../../'"><img src="../webresources/home.png"></button>
+        </div>
+    </footer>
 </body>
 
 </html>

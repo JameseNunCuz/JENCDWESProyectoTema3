@@ -35,11 +35,23 @@
         <button type="submit" name="submit">Enviar</button>
     </form>
 
-    <div class="footer">
-        <button onclick="location.href = '../../'">
-            <h3>James Edward Nuñez Cuzcano</h3>
-        </button>
+
+  </main>
+
+  <footer>
+    <h2>James Edward Nuñez Cuzcano</h2>
+    <div>
+      <button class="active" onclick="window.open('https://github.com/JameseNunCuz')"><img
+          src="../webresources/github.png"></button>
+      <button class="active" onclick="location.href='../../../'"><img src="../webresources/home.png"></button>
     </div>
+  </footer>mes Edward Nuñez Cuzcano</h2>
+    <div>
+      <button class="active" onclick="window.open('https://github.com/JameseNunCuz')"><img
+          src="../webresources/github.png"></button>
+      <button class="active" onclick="location.href='../../../'"><img src="../webresources/home.png"></button>
+    </div>
+  </footer>
 </body>
 
 </html>
